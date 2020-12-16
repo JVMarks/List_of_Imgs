@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8dyPaeJqw4iEIs98ZTCkaoIyLH5dgC7UTLlaVg3map02p8tSD5Z17pTuoRQlV7bFwn46h85YyaYzt9jeq1GrIA==",
+  "dgSpecHash": "I4mcfUjxTfdzPfYQ0O7ViPPp3arI8xRqd8IHZyVqUZZ0Sesc2vQ4oaR17y/N+fedXyV1CA+53EgmzUdA4kLD/A==",
   "success": true,
-  "projectFilePath": "D:\\trabalho\\Projeto2\\Projeto2\\Projeto2.csproj",
+  "projectFilePath": "C:\\Users\\jovic\\Source\\Repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jovic\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\jovic\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

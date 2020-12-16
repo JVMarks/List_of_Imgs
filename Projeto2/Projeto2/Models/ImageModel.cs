@@ -18,7 +18,7 @@ namespace Projeto2.Models
      [Column(TypeName = "nvarchar(50)")]
      public string Title { get; set; }
 
-     [Column(TypeName = "nvarchar(100)")]
+     [Column(TypeName = "nvarchar(100)")]//tamanho de alocação de banco de dados
      [DisplayName("Image Name")]
      public string ImageName { get; set; }
 
