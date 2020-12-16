@@ -1,0 +1,39 @@
+﻿@model Projeto2.Models.ImageModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Você realmente quer deletar essa imagem?</h3>
+<div>
+    <h4>Delete essa imagens se realmente tiver certeza!!!</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ImageName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ImageName)
+        </dd>
+        <dt class="col-sm-2">
+           Image enviada
+        </dt>
+        <dd class="col-sm-10">
+           <img src="@("~/upload/"+Model.ImageName)" asp-append-version="true" width="250" />
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ImageId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para pagina lista</a>
+    </form>
+</div>
