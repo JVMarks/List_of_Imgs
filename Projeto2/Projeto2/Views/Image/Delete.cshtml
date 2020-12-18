@@ -4,7 +4,7 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<h1>Deletar</h1>
 
 <h3>Você realmente quer deletar essa imagem?</h3>
 <div>
@@ -12,19 +12,19 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
+            Titulo
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Title)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageName)
+            Nome da Imagem
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.ImageName)
         </dd>
         <dt class="col-sm-2">
-           Image enviada
+           Image Baixada
         </dt>
         <dd class="col-sm-10">
            <img src="@("~/upload/"+Model.ImageName)" asp-append-version="true" width="250" />
@@ -33,7 +33,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="ImageId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
         <a asp-action="Index">Voltar para pagina lista</a>
     </form>
 </div>
