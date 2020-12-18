@@ -16,7 +16,7 @@ LIST VIEW IMGS
 
 3.  Antes de abrir a pasta do projeto, você deve entrar em seu SQL server Management Studio para criar o banco de dados na sua maquina local, não esqueça de colocar o nome do banco como `ImageDb`(Sé não colocar esse nome a aplicação não ira funcionar)<br>
 
-4.	Ao criar o Banco de dados em sua maquina local, você podera abrir a pasta do projeto e clicar no `Projeto2.sln`<br>
+4.	Ao criar o Banco de dados em sua maquina local, você poderá abrir a pasta do projeto e clicar no `Projeto2.sln`<br>
 
 5.  Depois que abrir no VS, você terá que entrar no arquivo `appsetttings.json`<br>
 
