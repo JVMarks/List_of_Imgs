@@ -24,9 +24,8 @@ LIST VIEW IMGS
 
 `"DevConnection": "Server =Nome-do-servidor; Database=ImageDb; Trusted_Connection=True; MultipleActiveResultSets=True;"`<br>
 
-7.  Depois de trocar o nome do servidor, voocê deve ir em ferratemntas --> Gerenciador de pacotes do NuGet --> e clicar na opção `Console do gerenciador de pacotes` <br>
+7.  Depois de trocar o nome do servidor, voocê deve ir em ferramentas --> Gerenciador de pacotes do NuGet --> e clicar na opção `Console do gerenciador de pacotes` <br>
 
-8.  Ao clicar na opção, abrira uma tela de console, dentro da tela do console você deve digitar `Update-Database` (Esse comando serve para ajuadar as Migrations a versionar o schema de sua aplicação)<br>
+8.  Ao clicar na opção, abrira uma tela de console, dentro da tela do console você deve digitar `Update-Database` (Esse comando serve para ajudar as Migrations a versionar o schema de sua aplicação)<br>
 
 9.	Após a troca do nome do servidor e o uso do `Update-Database`, você poderá iniciar o projeto apertando play.<br>
-10. Após iniciar o programa, insira na barra de pesquisa `/Image`.<br>
