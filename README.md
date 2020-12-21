@@ -1,10 +1,9 @@
 <h1 align="center">
-LIST VIEW IMGS
+LIST VIEW IMGS  3.0
 </h1>
 <p align="center">
 <hr>
 ## Techs
-
 - [x] ASP .NET core<br>
 - [x] SLQ SERVER<br>
 
