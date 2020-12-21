@@ -1,5 +1,5 @@
 <h1 align="center">
-LIST VIEW IMGS 3.0
+LIST VIEW IMGS
 </h1>
 <p align="center">
 <hr>
