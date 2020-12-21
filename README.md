@@ -1,10 +1,9 @@
 <h1 align="center">
-LIST VIEW IMGS
+LIST VIEW IMGS 3.0
 </h1>
 <p align="center">
 <hr>
 ## Techs
-
 - [x] ASP .NET core<br>
 - [x] SLQ SERVER<br>
 
@@ -29,4 +28,4 @@ LIST VIEW IMGS
 8.  Ao clicar na opção, abrira uma tela de console, dentro da tela do console você deve digitar `Update-Database` (Esse comando serve para ajuadar as Migrations a versionar o schema de sua aplicação)<br>
 
 9.	Após a troca do nome do servidor e o uso do `Update-Database`, você poderá iniciar o projeto apertando play.<br>
-10. Após iniciar o programa, insira na barra de pesquisa `/Image`.<br>
+10. Após iniciar o programa, insira na barra de pesquisa `/Image`. <br>
