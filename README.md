@@ -21,9 +21,7 @@ LIST VIEW IMGS  3.0
 
 6.	Já no arquivo `appsetttings.json`, você deve alterar o `NOME DO SERVIDOR` para o seu local, linha de código:<br>
 
-`"DevConnection":"Server =Nome-do-servidor;Database=ImageDb; Trusted_Connection=True;MultipleActiveResultSets=True;",`<br>
-
-`"AuthDbContextConnection":"Server=Nome-do-servidor;Database=MVCauthDB;Trusted_Connection=True;MultipleActiveResultSets=true"`<br>
+`"DevConnection":"Server =Nome-do-servidor;Database=ImageDb; Trusted_Connection=True;MultipleActiveResultSets=True;","AuthDbContextConnection":"Server=Nome-do-servidor;Database=MVCauthDB;Trusted_Connection=True;MultipleActiveResultSets=true"`<br>
 
 7.  Depois de trocar o nome do servidor, voocê deve ir em ferramentas --> Gerenciador de pacotes do NuGet --> e clicar na opção `Console do gerenciador de pacotes` <br>
 
