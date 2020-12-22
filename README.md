@@ -14,7 +14,7 @@ LIST VIEW IMGS  3.0
 
 2.	Descompactar o arquivo .zip<br>
 
-3.  Antes de abrir a pasta do projeto, você deve entrar em seu SQL server Management Studio para criar os bancos de dados na sua maquina local, não esqueça de colocar o nome do banco como `ImageDb` e `MVCCauthDB` (Sé não colocar esse nome a aplicação não ira funcionar)<br>
+3.  Antes de abrir a pasta do projeto, você deve entrar em seu SQL server Management Studio para criar os bancos de dados na sua maquina local, não esqueça de colocar o nome do banco como `ImageDb` e `MVCauthDB` (Sé não colocar esse nome a aplicação não ira funcionar)<br>
 
 4.	Ao criar o Banco de dados em sua maquina local, você poderá abrir a pasta do projeto e clicar no `Projeto2.sln`<br>
 
