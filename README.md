@@ -4,6 +4,7 @@ LIST VIEW IMGS  3.0
 <p align="center">
 <hr>
 ## Techs
+<br>
 - [x] ASP .NET core<br>
 - [x] SLQ SERVER<br>
 
