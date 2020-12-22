@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using Projeto2.Models;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Projeto2.Controllers
 {
+    [Authorize]
     public class ImageController : Controller
     {
         private readonly ImageDbContext _context;
@@ -59,9 +61,9 @@ namespace Projeto2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ImageId,Title,ImageFile")] ImageModel imageModel)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid)//armazena os erros de validação associados com o valor/ armazena valores 
             {
-                //savar imagens no wwwroot/upload
+                //savar imagens no wwwroot/upload STRING serve para Instanciar um objeto de cadeia de caracteres
                 string wwwRootPath = _hostEnvironment.WebRootPath;
                 string fileName = Path.GetFileNameWithoutExtension(imageModel.ImageFile.FileName);
                 string extension = Path.GetExtension(imageModel.ImageFile.FileName);

@@ -25,6 +25,7 @@ namespace Projeto2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();//adicionar o user
 
             services.AddDbContext<ImageDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
@@ -45,6 +46,7 @@ namespace Projeto2
 
             app.UseRouting();
 
+            app.UseAuthentication();//login
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -52,6 +54,7 @@ namespace Projeto2
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();// identity/account/login-register
             });
         }
     }
