@@ -1,0 +1,18 @@
+﻿.homepageimg {
+    width: 40vw;
+    position: absolute;
+    text-align: right;
+    align-items: center;
+    float: right;
+    transition: 0.3s;
+}
+
+.homepageimg:hover {
+    opacity: 0.7;
+}
+
+    @media (max-width: 568px) {
+        img {
+            display: none;
+        }
+    }

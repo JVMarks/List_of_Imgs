@@ -1,8 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<link rel="stylesheet" href="~/css/responsive.css" />
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4 text-lg-left">Bem vindo a sua lista de Imagens</h1>
+    <img class="rounded homepageimg" src="~/assets/img/home-page3.jpg" asp-append-version="true" />
+    <div class="d-flex flex-row mt-5">
+        <a class="btn btn-outline-success btn-lg p-3" asp-area="" asp-controller="Image" asp-action="Create">Crie já sua primeira lista</a>
+    </div>
+    <div class="d-flex flex-row mt-3">
+        <a class="btn btn-outline-info btn-lg p-3" asp-area="" asp-controller="Image" asp-action="Index">Ver lista</a>
+    </div>
 </div>
