@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jovic\\source\\repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj": {}
+    "C:\\Users\\jovic\\Source\\Repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jovic\\source\\repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj": {
+    "C:\\Users\\jovic\\Source\\Repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jovic\\source\\repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj",
+        "projectUniqueName": "C:\\Users\\jovic\\Source\\Repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj",
         "projectName": "Projeto2",
-        "projectPath": "C:\\Users\\jovic\\source\\repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj",
+        "projectPath": "C:\\Users\\jovic\\Source\\Repos\\List_of_Imgs\\Projeto2\\Projeto2\\Projeto2.csproj",
         "packagesPath": "C:\\Users\\jovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jovic\\source\\repos\\List_of_Imgs\\Projeto2\\Projeto2\\obj\\",
+        "outputPath": "C:\\Users\\jovic\\Source\\Repos\\List_of_Imgs\\Projeto2\\Projeto2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
